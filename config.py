@@ -12,7 +12,8 @@ parser.add_argument('--models',
         'decapoda-research/llama-7b-hf', 
         'cerebras/Cerebras-GPT-2.7B', 
         'cerebras/Cerebras-GPT-1.3B', 
-        'EleutherAI/gpt-neo-2.7B'
+        'EleutherAI/gpt-neo-2.7B',
+        'junelee/wizard-vicuna-13b'
     ],  
     help='List of models to use'
 )
